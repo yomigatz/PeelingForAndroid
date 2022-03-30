@@ -1,4 +1,4 @@
-package com.yomigatz.peeling.peeling.widget;
+package com.zxy.skin.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,7 @@ import android.graphics.PointF;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.zxy.skin.demo.R;
+import com.zxy.skin.R;
 
 public class CustomView extends View {
 

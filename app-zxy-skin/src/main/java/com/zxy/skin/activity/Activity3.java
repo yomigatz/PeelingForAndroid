@@ -1,17 +1,19 @@
-package com.yomigatz.peeling.peeling.activity;
+package com.zxy.skin.activity;
 
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
+
 import android.view.View;
 
-import com.zxy.skin.demo.R;
-import com.zxy.skin.demo.fragment.Fragment1;
-import com.zxy.skin.demo.fragment.Fragment2;
-import com.zxy.skin.demo.fragment.Fragment4;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
+import com.zxy.skin.fragment.Fragment1;
+import com.zxy.skin.fragment.Fragment2;
+import com.zxy.skin.R;
+import com.zxy.skin.fragment.Fragment4;
 import com.zxy.skin.sdk.SkinActivity;
 import com.zxy.skin.sdk.SkinEngine;
 

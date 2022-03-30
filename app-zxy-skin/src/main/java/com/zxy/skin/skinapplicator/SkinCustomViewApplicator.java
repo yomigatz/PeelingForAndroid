@@ -1,9 +1,9 @@
-package com.yomigatz.peeling.peeling.skinapplicator;
+package com.zxy.skin.skinapplicator;
 
 import android.content.res.TypedArray;
 import android.graphics.Color;
 
-import com.zxy.skin.demo.widget.CustomView;
+import com.zxy.skin.widget.CustomView;
 import com.zxy.skin.sdk.applicator.SkinViewApplicator;
 
 public class SkinCustomViewApplicator extends SkinViewApplicator {

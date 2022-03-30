@@ -1,7 +1,6 @@
-package com.yomigatz.peeling.peeling.fragment;
+package com.zxy.skin.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +9,9 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.zxy.skin.demo.R;
+import androidx.annotation.Nullable;
+
+import com.zxy.skin.R;
 import com.zxy.skin.sdk.SkinFragment;
 
 
@@ -23,7 +24,7 @@ public class Fragment1 extends SkinFragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        if(mView==null){
+        if (mView == null) {
             mView = inflater.inflate(R.layout.fragment1, container, false);
             mListView = mView.findViewById(R.id.fragmet1_listview);
             mListView.setAdapter(new MyListViewAdapter());
@@ -36,7 +37,7 @@ public class Fragment1 extends SkinFragment {
         super.onActivityCreated(savedInstanceState);
     }
 
-    public class MyListViewAdapter extends BaseAdapter{
+    public class MyListViewAdapter extends BaseAdapter {
 
         @Override
         public int getCount() {
@@ -55,7 +56,7 @@ public class Fragment1 extends SkinFragment {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            if(convertView==null){
+            if (convertView == null) {
                 View view = getLayoutInflater().inflate(R.layout.fragment1_listview_item, parent, false);
                 MyViewHolder myViewHolder = new MyViewHolder();
                 myViewHolder.textView = view.findViewById(R.id.textview);
@@ -64,13 +65,13 @@ public class Fragment1 extends SkinFragment {
                 convertView = view;
             }
             MyViewHolder myViewHolder = (MyViewHolder) convertView.getTag();
-            myViewHolder.textView.setText("listview item:"+position);
-            myViewHolder.button.setText("btn:"+position);
+            myViewHolder.textView.setText("listview item:" + position);
+            myViewHolder.button.setText("btn:" + position);
             return convertView;
         }
     }
 
-    public static class MyViewHolder{
+    public static class MyViewHolder {
         public TextView textView;
         public Button button;
     }
