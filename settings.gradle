@@ -15,4 +15,25 @@ dependencyResolutionManagement {
 rootProject.name = "PeelingForAndroid"
 include ':app'
 include ':lib-colorful'
+include ':lib-skin'
+include ':skin-support'
+include ':skin-support-appcompat'
+include ':skin-support-constraint-layout'
+include ':skin-support-cardview'
+include ':skin-support-design'
+include ':lib-circleimageview'
+include ':lib-flycotablayout'
+include ':skin-demo:skin-androidx-app'
+include ':skin-demo:skin-app'
+include ':skin-demo:skin-mobile'
+include ':skin-demo:skin-night'
+
 project(':lib-colorful').projectDir = new File("lib-colorful")
+project(':lib-skin').projectDir = new File("lib-skin")
+project(':skin-support').projectDir = new File("lib-skin-androidx\\skin-support")
+project(':skin-support-appcompat').projectDir = new File("lib-skin-androidx\\skin-support-appcompat")
+project(':skin-support-constraint-layout').projectDir = new File("lib-skin-androidx\\skin-support-constraint-layout")
+project(':skin-support-cardview').projectDir = new File("lib-skin-androidx\\skin-support-cardview")
+project(':skin-support-design').projectDir = new File("lib-skin-androidx\\skin-support-design")
+project(':lib-flycotablayout').projectDir = new File("lib-third-part-support\\lib-flycotablayout")
+project(':lib-circleimageview').projectDir = new File("lib-third-part-support\\lib-circleimageview")

@@ -22,6 +22,11 @@
         <activity android:name=".colorful.ColorFulActivity"/>
 
         <activity android:name=".colorful.RecyclerActivity"/>
+        
+        <activity android:name=".peeling.activity.Activity1"/>
+
+        <activity android:name=".peeling.activity.Activity2"/>
+        <activity android:name=".peeling.activity.Activity3"/>
     </application>
 
 </manifest>
