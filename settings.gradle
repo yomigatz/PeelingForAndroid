@@ -35,6 +35,11 @@ include ':lib-skin'
 include ':app-android-skin-loader-sample'
 include ':lib-android-skin-loader'
 
+// hook skin
+include ':app-hook-skin'
+include ':app-hook-skin-plugin'
+
+
 project(':lib-colorful').projectDir = new File("lib-colorful")
 project(':lib-skin').projectDir = new File("lib-skin")
 //project(':skin-support').projectDir = new File("lib-skin-androidx\\skin-support")

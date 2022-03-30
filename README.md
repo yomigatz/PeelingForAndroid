@@ -15,3 +15,7 @@ https://github.com/fengjundev/Android-Skin-Loader
 1.自定义属性
 
 2.定义接口标识支持换肤 SkinSupport
+
+Android hook huanfu, mFactory2
+https://www.jianshu.com/p/4c8d46f58c4f
+
