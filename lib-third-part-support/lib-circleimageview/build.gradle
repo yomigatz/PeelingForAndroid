@@ -24,11 +24,11 @@ dependencies {
     implementation project(':skin-support-appcompat')
 }
 
-ext {
-    publishVersion = '2.1.0.4'
-    publishGroup = rootProject.skinAndroidXSkinGroup
-    moduleName = 'lib-circleimageview'
-    descContent = 'hdodenhof/CircleImageView 控件换肤支持包'
-}
+//ext {
+//    publishVersion = '2.1.0.4'
+//    publishGroup = rootProject.skinAndroidXSkinGroup
+//    moduleName = 'lib-circleimageview'
+//    descContent = 'hdodenhof/CircleImageView 控件换肤支持包'
+//}
 
 //apply from: '../../publishing_maven.gradle'

@@ -27,11 +27,11 @@ tasks.withType(Javadoc) {
     options.addStringOption('charSet', 'UTF-8')
 }
 
-ext {
-    publishVersion = rootProject.skinAndroidXVersion
-    publishGroup = rootProject.skinAndroidXSkinGroup
-    moduleName = 'skin-support'
-    descContent = 'skin-support core'
-}
+//ext {
+//    publishVersion = rootProject.skinAndroidXVersion
+//    publishGroup = rootProject.skinAndroidXSkinGroup
+//    moduleName = 'skin-support'
+//    descContent = 'skin-support core'
+//}
 
 //apply from: '../../publishing_maven.gradle'
