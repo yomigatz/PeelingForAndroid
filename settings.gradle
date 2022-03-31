@@ -39,6 +39,8 @@ include ':lib-android-skin-loader'
 include ':app-hook-skin'
 include ':app-hook-skin-plugin'
 
+include ':lib-hookskin'
+
 
 project(':lib-colorful').projectDir = new File("lib-colorful")
 project(':lib-skin').projectDir = new File("lib-skin")
@@ -51,3 +53,4 @@ project(':lib-skin').projectDir = new File("lib-skin")
 //project(':lib-circleimageview').projectDir = new File("lib-third-part-support\\lib-circleimageview")
 
 project(':lib-android-skin-loader').projectDir = new File("lib-android-skin-loader")
+project(':lib-hookskin').projectDir = new File("lib-hookskin")
